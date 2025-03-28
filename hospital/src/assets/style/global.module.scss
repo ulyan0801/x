@@ -1,0 +1,27 @@
+// 全局样式变量
+$color: #fff;
+
+body {
+    background-color: $color;
+    // 禁用文字选中
+    user-select: none;
+}
+
+img {
+    // 禁止拖动图片
+    -webkit-user-drag: none;
+}
+
+// 卡片下的表格以及分页样式
+
+:global(.ant-card-body) {
+    padding: 16px !important;
+}
+
+:global(.ant-pagination) {
+    margin: 16px 0 1px 0 !important;
+}
+
+:global(.ant-card-head) {
+    min-height: 45px !important;
+}

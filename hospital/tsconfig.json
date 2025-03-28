@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // 指定ts被编译为的ES版本
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ], // 指定项目中要使用的库
+    "module": "ESNext", // 指定要使用的模块化的规范
+    "skipLibCheck": true,
+    "noImplicitAny": true, // 不允许隐式any类型
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true, // 不生成编译后的文件
+    "jsx": "react-jsx",
+    /* Linting */
+    "strict": true, // 所有严格检查的总开关
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "src",
+    "./**/*.ts"
+  ], // 指定哪些文件需要被编译
+  "exclude": ["node_modules/**/*"],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "baseUrl": "./", // 解析非相对模块的基础地址，默认是当前目录
+  "paths": {
+    // 路径映射，相对于baseUrl
+    "@": [
+      "src"
+    ],
+    "@/*": [
+      "src/*"
+    ],
+  }
+}

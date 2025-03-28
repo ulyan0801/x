@@ -1,0 +1,17 @@
+@media only screen and (min-width: 700px) {
+  .changeHead {
+    margin-bottom: 16px;
+
+    :global(.ant-upload-wrapper) {
+      display: flex;
+      align-items: center;
+    }
+
+    :global(.ant-upload-wrapper .ant-upload-list .ant-upload-list-item) {
+      margin-top: unset;
+      left: 10px;
+      cursor: pointer;
+    }
+  }
+
+}

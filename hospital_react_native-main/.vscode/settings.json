@@ -1,0 +1,7 @@
+{
+    "Codegeex.RepoIndex": true,
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "i18n-ally.localesPaths": [
+        "src/i18n"
+    ]
+}

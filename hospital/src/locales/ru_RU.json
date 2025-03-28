@@ -1,0 +1,308 @@
+{ 
+  "login": { 
+    "title": "Логин", 
+     "username": "Имя пользователя", 
+     "password": "Пароль", 
+     "systemLogin": "Вход", 
+     "logout": "Выход из системы", 
+     "register": "Регистрация", 
+     "forgetPassword": "Забыли пароль" , 
+     "phoneNumber": "MobileNumber", 
+     "loginButton": "Вход", 
+     "registerButton": "Регистрация", 
+     "resetButton": "Сброс", 
+     "systemName": "поликлиника", 
+     "confirmPassword": "Подтверждение пароля", 
+     "rememberMe": "Запомнить меня", 
+     "welcome": "Добро пожаловать {{имя}} в систему!"
+},
+
+  "common": { 
+    "id": "ID", 
+    "operation": "Операция", 
+    "cancel": "Отменить", 
+    "delete": "Удалить", 
+    "totalItems": "Всего {{total}} товаров", 
+    "search": "Поиск", 
+    "confirm": "Подтвердить", 
+    "modify":"modify", 
+    "payment": "оплата", 
+    "status": "статус", 
+    "time": "время", 
+    "quantity": "количество", 
+    "price": "цена", 
+    "location": "местоположение", 
+    "password": "пароль", 
+    "createTime": "createTime", 
+    "updateTime": "updateTime", 
+    "prescriptionId": "prescriptionId", 
+    "paymentStatus": "paymentStatus", 
+    "viewDetails": "viewDetails", 
+    "validAmount": "Please enter a valid amount", 
+    "reset": "reset", 
+    "passwordRequired": "Должен быть пароль", 
+    "passwordPlaceholder": "Пожалуйста, введите пароль", 
+    "confirmPasswordRequired": "Требуется повтор пароля", 
+    "passwordMismatch": "Два пароля не совпадают", 
+    "confirmPasswordPlaceholder": "Пожалуйста, введите дубликат пароля", 
+    "phoneInvalid": "Номер мобильного телефона не действителен", 
+    "gender": { 
+    "male": "мужской", 
+    "female": "женский" 
+    }, 
+    "edit": "Изменить", 
+    "pleaseEnter": "Пожалуйста, введите", 
+    "confirmRegister": "Подтвердить бронирование?" , 
+    "add": "Добавить", 
+    "confirmAdd": "Подтвердить добавление этого рецепта?" , 
+    "modify_warning": "Внимание, изменения не могут быть отозваны!" , 
+    "avatar": "аватары" 
+    },
+
+    "page": { 
+    "home": "Главная", 
+    "caseManagement": "Оформление дел", 
+    "drugEntryExit": "Ввод и вывод лекарств", 
+ "drugManagement": "Управление информацией о лекарствах", 
+ "financialManagement": "Управление финансами", 
+ "statistics": "Статистика отсутствия на складе", 
+ "paymentInformation": "Информация об оплате", 
+ "prescriptionInformation": "Информация о рецептах", 
+ "unpaidInformationStatistics": "Управление неоплаченными заказами", 
+ "systemSettings": "Системные настройки", 
+ "personalInformationManagement": "Управление персональной информацией", 
+ "registration": "Бронирование назначений", 
+ "paymentEntry": "Ввод платежа", 
+ "financialInfo": "Информация о заказе" , 
+ "registrationInfo": "Информация о бронировании", 
+ "patientInformationManagement": "Управление информацией о пациенте" 
+ },
+ "drug": { 
+"name": "Название препарата", 
+"type": "Тип препарата", 
+"manufacturer": "Производитель", 
+"productionDate": "Дата производства", 
+"expiryDate": "Дата истечения срока годности", 
+"addQuantity": "replenishmentQty", 
+"stock" : "количество на складе", 
+"wholesale": "оптовая цена", 
+"retail": "цена продажи", 
+"position": "инвентарная позиция", 
+"termValidity": "срок годности", 
+"therapeuticEfficacy": "эффективность", 
+"inventory": "запас", 
+"outOfStock": "Статистика по отсутствию на складе", 
+"edit": "Изменить препарат", 
+"warehousing": "Препараты на складе", 
+"stock_management": "Препараты на складе", 
+"stock_confirm": "Подтвердить запас?" , 
+"stock_content": "Входящие медикаменты" 
+},
+
+"patient": { 
+    "name": "Имя пациента", 
+    "gender": "Пол", 
+    "age": "Возраст", 
+    "idNumber": "ID номер", 
+    "phone": "Номер телефона пациента", 
+    "diagnosis": "Патологический диагноз", 
+    "appointment": "Время приема", 
+    "login" : "Логин пациента", 
+    "register": "Регистрация пациента", 
+    "management": "Управление пациентом", 
+    "registerTime": "Время регистрации", 
+    "namePlaceholder": "Пожалуйста, введите имя пациента", 
+    "agePlaceholder": "Пожалуйста, введите возраст пациента", 
+    "idPlaceholder": "Пожалуйста, введите ID номер", 
+    "modifyInfo": "Изменить информацию о пациенте", 
+    "modifyPassword": "Изменить пароль пациента", 
+    "phonePlaceholder": "Пожалуйста, введите номер мобильного телефона пациента" 
+    },
+
+    "prescription": { 
+ "title": "Рецепт выдан", 
+ "diagnosis": "Диагноз", 
+ "medicine": "Выбор лекарства", 
+ "usage": "Способ употребления", 
+ "time": "Время выдачи рецепта", 
+ "id": "Номер рецепта", 
+ "status": "Статус диагноза", 
+ "issued": "выдан", 
+ "unisused": "не выдан" 
+ }, 
+ "financial": { 
+ "order": "Номер заказа", 
+ "type": "Тип платы", 
+ "unpaid": "неоплаченный", 
+ "paid": "оплаченный", 
+ "money": "Сумма взноса", 
+ "date": "Время заказа", 
+ "drugFee": "Стоимость лекарств", 
+ "otherFee": "Прочие расходы", 
+ "info": "Информация о заказе", 
+ "status": "Статус платежа" 
+ },
+ "system": { 
+    "deletePrompt": "Подтвердить удаление {{name}}?" , 
+    "cancelPrompt": "Подтвердить отмену этого {{name}}?" , 
+    "cancelPrompt": "Подтвердить отмену удаления этого {{имя}}?" , 
+    "deleteConfirm": "Подтвердить удаление", 
+    "personalInfo": "Управление персональными данными", 
+    "changePassword": "Изменить пароль", 
+    "confirmPassword": "Подтвердить пароль", 
+    "editConfirm": "Подтвердить изменение", 
+    "deleteWarning": "Удаление необратимо, будьте осторожны", 
+    "notEdit": "Изменения не вносились", 
+    "tips": { 
+    "fileFormat": "Загружать только в формате png/jpg", 
+    "fileSize": "Размер файла должен быть менее 20 МБ" 
+    }, 
+    "updateSuccess": " Upload Success", 
+    "updateFail": "Upload Failed", 
+    "uploadFail": "Upload Failed", 
+    "uploadSuccess": "Upload Succeeded", 
+    "avatarReset": "Подтвердить восстановление аватара по умолчанию?" , 
+    "uploadAvatar": "Загрузить аватар", 
+    "resetAvatar": "Сбросить аватар по умолчанию", 
+    "modifyPersonInfo": "Изменить личную информацию", 
+    "admin": "Администратор", 
+    "doctor": "Врач", 
+    "patient": "Пациент" 
+    }, 
+    "components" : { 
+    "caseFiling": { 
+    "serialNumber": "серийный номер", 
+    "medicineName": "название лекарства", 
+    "medicineQuantity": "количество лекарства", 
+    "usageMethod": "метод использования" 
+    },
+    "registration": { 
+        "department": "отделение", 
+        "doctorName": "doctorName", 
+        "appointmentTime": "AppointmentTime", 
+        "completionStatus": "In Progress", 
+        "completed": "завершено", 
+        "незавершен": "не завершен", 
+        "cost": "Регистрационный сбор ($)", 
+        "createTime": "Время приема", 
+        "registration": "Регистрация", 
+        "id": "Идентификатор приема", 
+        "pleaseSelectDoctor": "Пожалуйста, выберите врача", 
+        "cancel": "Отмена приема. ", 
+        "warning": "Назначение уже занято!"
+},
+
+"prescription": { 
+    "diagnosisResult": "Результат диагноза", 
+    "medicineSelection": "Выбор препарата", 
+    "dosage": "Как принимать", 
+    "pleaseSelectDepartment": "Пожалуйста, выберите отдел", 
+    "drugCount": " Количество препаратов", 
+    "drugUsage": "Употребление наркотиков", 
+    "addMedicine": "Добавление лекарственных средств" 
+    },
+
+      "searchForm": { 
+      "label": "Поле", 
+      "value": "Значение", 
+      "placeholder": "Пожалуйста, введите", 
+      "min_num": "Минимальное количество" 
+ },
+
+      "systemSettings": { 
+ "AdminPage": { 
+ "adminId": "id администратора", 
+ "adminName": "имя администратора", 
+ "adminNamePlaceholder": "Please enter admin name", 
+ "infoModify": "модификация информации", 
+ "passwordModify": "Смена пароля" 
+ },
+ 
+ "phone": "Номер телефона", 
+ "phonePlaceholder": "Пожалуйста, введите номер телефона", 
+ "name": "Имя" 
+ }
+}, 
+"case": { 
+"case": "случай", 
+"caseArchiving": "Оформление дела" 
+},
+
+"departmentManagement": { 
+    "departmentName": "Название секции", 
+    "departmentID": "Идентификатор секции", 
+    "modifyDepartment": "Изменить раздел", 
+    "addDepartment": "Дополнительные разделы", 
+    "departmentInfoManagement": "Информация о разделе", 
+    "departmentManagement": "Управление секцией" 
+    },
+
+    "doctorManagement": { 
+ "registration": "Регистрация врача", 
+ "namePlaceholder": "Пожалуйста, введите имя врача", 
+ "phonePlaceholder": "Пожалуйста, введите номер мобильного телефона врача", 
+ "departmentPlaceholder": "Пожалуйста, введите отдел. department", 
+ "informationManagement": "Управление информацией о враче" 
+ },
+
+    "doctorRegistration": { 
+ "nameRequired": "Должно быть имя врача", 
+ "phone": "Номер мобильного телефона врача", 
+ "phoneInvalid": "Номер мобильного телефона врача не является законным", 
+ "departmentRequired": "Должно быть указано отделение, к которому он принадлежит", 
+ "age": "Please enter the возраст врача" 
+ },
+
+
+ "pages": { 
+    "drugManagement": { 
+    "drugEntryExit": "Управление вводом и выводом лекарств", 
+    "drugManagement": "Управление информацией о лекарствах" 
+    }, 
+    "prescriptionManagement": "Управление диагнозами", 
+    "reservation": { 
+    "registrationTime": "Время регистрации" 
+    }, 
+    "reservationInformation": { 
+    "completionStatus": "Статус завершения", 
+    "confirmCompletion": "Вы уверены, что хотите завершить этот прием?" , 
+    "title": "Бронирование" 
+    } 
+    }, 
+    "index": { 
+    "home": "Главная", 
+    "authoritative_doctors": "Уполномоченные врачи", 
+    "hospital_photos": "Фотографии _больницы" 
+    }, 
+    "message": { 
+    "toAlipay": "Будет перенаправлено на оплату Alipay" 
+    } , 
+    "status": { 
+    "visited": "посещен", 
+    "notVisited": "не посещен", 
+    "processing": "статус", 
+    "unvisited": "не посещен", 
+    "changeStatus": "выполнить" 
+    }, 
+    "compoents": { 
+    "prescription ": { 
+    "drugCount": "счет лекарств" 
+    } 
+    }, 
+    "buttons": { 
+    "search": "поиск", 
+    "reset": "сброс", 
+    "instock": "пополнение" 
+    }, 
+    "registration": { 
+    "cancelRegistration": "отмена регистрации" 
+    }, 
+    "drugManagement": { 
+    "instock": "дополнительное количество", 
+    "instockPlaceholder": "Пожалуйста, введите количество добавок" 
+    }, 
+    "reservation": { 
+    "scheduledTime": "Время бронирования" 
+    } 
+    }
+  

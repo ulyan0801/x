@@ -1,0 +1,314 @@
+{
+  "login": {
+    "title": "Login",
+    "username": "Username",
+    "password": "Password",
+    "systemLogin": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "forgetPassword": "Forgot Password",
+    "phoneNumber": "Mobile Number",
+    "loginButton": "Login",
+    "registerButton": "Register",
+    "resetButton": "Reset",
+    "systemName": "Hospital Appointment Management System",
+    "confirmPassword": "Confirm Password",
+    "rememberMe": "Remember Me",
+    "welcome": "Welcome,{{name}}!"
+  },
+  "common": {
+    "id": "ID",
+    "operation": "Operation",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "totalItems": "Total {{total}} items",
+    "search": "Search",
+    "confirm": "Confirm",
+    "modify": "Modify",
+    "payment": "Payment",
+    "status": "Status",
+    "time": "Time",
+    "quantity": "Quantity",
+    "price": "Price",
+    "location": "Location",
+    "password": "Password",
+    "createTime": "Creation Time",
+    "updateTime": "Update Time",
+    "prescriptionId": "Prescription ID",
+    "paymentStatus": "Payment Status",
+    "viewDetails": "View Details",
+    "validAmount": "Please enter a valid amount",
+    "reset": "Reset",
+    "passwordRequired": "Password is required",
+    "passwordPlaceholder": "Please enter password",
+    "confirmPasswordRequired": "Confirm Password is required",
+    "passwordMismatch": "Passwords do not match",
+    "confirmPasswordPlaceholder": "Please confirm password",
+    "phoneInvalid": "Invalid phone number",
+    "gender": {
+      "male": "Male",
+      "female": "Female"
+    },
+    "edit": "edit",
+    "pleaseEnter": "Please Enter",
+    "confirmRegister": "confirm register?",
+    "add": "add",
+    "confirmAdd": "confirm add this prescription?",
+    "modify_warning": "Attention !!! It's will be cannot revoked !",
+    "avatar": "avatar"
+  },
+  "page": {
+    "home": "Home",
+    "caseManagement": "Case Management",
+    "drugEntryExit": "Drug Inventory Management",
+    "drugManagement": "Drug Information Management",
+    "financialManagement": "Financial Management",
+    "statistics": "Out-of-Stock Statistics",
+    "paymentInformation": "Payment Information",
+    "prescriptionInformation": "Prescription Information",
+    "unpaidInformationStatistics": "Unpaid Orders Management",
+    "systemSettings": "System Settings",
+    "personalInformationManagement": "Personal Information Management",
+    "registration": "Appointment Registration",
+    "paymentEntry": "Payment Portal",
+    "financialInfo": "Order Information",
+    "registrationInfo": "Appointment Information",
+    "patientInformationManagement": "Patient Information Management"
+  },
+  "button": {
+    "confirmPayment": "Confirm Payment",
+    "paymentSuccess": "Payment Successful",
+    "paymentFailed": "Payment Failed"
+  },
+  "doctor": {
+    "management": "Doctor Management",
+    "name": "Doctor Name",
+    "department": "Department",
+    "gender": "Gender",
+    "age": "Age",
+    "phone": "Contact Number",
+    "tel": "Doctor Phone",
+    "transfer": "Position Transfer",
+    "registration": "Doctor Registration",
+    "id": "ID",
+    "modifyDoctorInfo": "Modify Doctor Information",
+    "modifyPassword": "modify doctor password",
+    "birthday": "birthday",
+    "workDate": "Work Date",
+    "info": "info"
+  },
+  "drug": {
+    "name": "Drug Name",
+    "type": "Drug Type",
+    "manufacturer": "Manufacturer",
+    "productionDate": "Production Date",
+    "expiryDate": "Expiration Date",
+    "addQuantity": "Add Quantity",
+    "stock": "Stock Quantity",
+    "wholesale": "Wholesale Price",
+    "retail": "Retail Price",
+    "position": "Storage Location",
+    "termValidity": "Expiration Date",
+    "therapeuticEfficacy": "Therapeutic Effect",
+    "inventory": "Inventory",
+    "outOfStock": "Out-of-Stock Statistics",
+    "edit": "Edit Drug",
+    "warehousing": "Drug Warehousing",
+    "stock_management": "drug instock",
+    "stock_confirm": "confirm instock",
+    "stock_content": "drug instock"
+  },
+  "patient": {
+    "name": "Patient Name",
+    "gender": "Gender",
+    "age": "Age",
+    "idNumber": "ID Number",
+    "phone": "Patient Phone",
+    "diagnosis": "Diagnosis",
+    "appointment": "Appointment Time",
+    "login": "Patient Login",
+    "register": "Patient Registration",
+    "management": "Patient Management",
+    "registerTime": "register time",
+    "namePlaceholder": "please input name",
+    "agePlaceholder": "please input age",
+    "idPlaceholder": "please input idNumber",
+    "modifyInfo": "modify patient info",
+    "modifyPassword": "modify patient password",
+    "phonePlaceholder": "please input phone"
+  },
+  "prescription": {
+    "title": "Prescription Issuance",
+    "diagnosis": "Diagnosis Result",
+    "medicine": "Medicine Selection",
+    "usage": "Usage Method",
+    "time": "Issuance Time",
+    "id": "Prescription ID",
+    "status": "Diagnosis Status",
+    "issued": "Issued",
+    "unisused": "Unissued"
+  },
+  "financial": {
+    "order": "Order ID",
+    "type": "Fee Type",
+    "unpaid": "Unpaid",
+    "paid": "Paid",
+    "money": "Payment Amount",
+    "date": "Order Date",
+    "drugFee": "Drug Fee",
+    "otherFee": "Other Fees",
+    "info": "Order Information",
+    "status": "Payment Status"
+  },
+  "system": {
+    "deletePrompt": "Confirm to delete {{name}}?",
+    "cancelPrompt": "Confirm to cancel this {{name}}?",
+    "deleteConfirm": "Confirm Deletion",
+    "personalInfo": "Personal Information Management",
+    "changePassword": "Change Password",
+    "confirmPassword": "Confirm Password",
+    "editConfirm": "Confirm Modification",
+    "deleteWarning": "This operation is irreversible, please proceed with caution",
+    "notEdit": "No modifications made",
+    "tips": {
+      "fileFormat": "only png/jpg",
+      "fileSize": "file size must letter then 20MB"
+    },
+    "updateSuccess": "update success",
+    "updateFail": "upload fail",
+    "uploadFail": "upload fail",
+    "uploadSuccess": "upload success",
+    "avatarReset": "Are you sure reset default avatar?",
+    "uploadAvatar": "upload avatar",
+    "resetAvatar": "reset default avatar",
+    "admin": "Admin",
+    "doctor": "doctor",
+    "patient": "patient",
+    "modifyPersonInfo": "modify person info"
+  },
+  "components": {
+    "caseFiling": {
+      "serialNumber": "Serial Number",
+      "medicineName": "Medicine Name",
+      "medicineQuantity": "Medicine Quantity",
+      "usageMethod": "Usage Method"
+    },
+    "registration": {
+      "department": "Department",
+      "doctorName": "Doctor Name",
+      "appointmentTime": "Appointment Time",
+      "completionStatus": "Completion Status",
+      "completed": "Completed",
+      "uncompleted": "Pending",
+      "cost": "Registration Fee (CNY)",
+      "createTime": "Registration Time",
+      "registration": "Registration",
+      "id": "Appointment ID",
+      "pleaseSelectDoctor": "Please Select Doctor",
+      "warning": "Is Registered!"
+    },
+    "prescription": {
+      "diagnosisResult": "Diagnosis Result",
+      "medicineSelection": "Medicine Selection",
+      "dosage": "Dosage",
+      "pleaseSelectDepartment": "Please Select Department",
+      "drugCount": "drug count",
+      "drugUsage": "drug usage",
+      "addMedicine": "add medicine"
+    },
+    "searchForm": {
+      "label": "label",
+      "value": "value",
+      "placeholder": "placeholder",
+      "min_num": "min num"
+    },
+    "systemSettings": {
+      "AdminPage": {
+        "adminId": "admin id",
+        "adminName": "admin name",
+        "adminNamePlaceholder": "please input admin name",
+        "passwordModify": "password modify",
+        "infoModify": "info modify"
+      },
+      "phonePlaceholder": "please input phone",
+      "name": "name",
+      "phone": "phone"
+    }
+  },
+  "case": {
+    "case": "Case",
+    "caseArchiving": "Case Archiving"
+  },
+  "departmentManagement": {
+    "departmentName": "Department Name",
+    "departmentID": "Department ID",
+    "modifyDepartment": "Modify Department",
+    "addDepartment": "Add Department",
+    "departmentInfoManagement": "Department Information",
+    "departmentManagement": "Department Management"
+  },
+  "doctorManagement": {
+    "registration": "Doctor Registration",
+    "namePlaceholder": "Enter doctor name",
+    "phonePlaceholder": "Enter doctor phone number",
+    "departmentPlaceholder": "Enter department",
+    "informationManagement": "Doctor Information Management"
+  },
+  "doctorRegistration": {
+    "nameRequired": "Doctor name is required",
+    "phone": "Doctor Phone",
+    "phoneInvalid": "Invalid doctor phone number",
+    "departmentRequired": "Department is required",
+    "age": "Enter doctor age"
+  },
+  "pages": {
+    "drugManagement": {
+      "drugEntryExit": "Drug Inventory Management",
+      "drugManagement": "Drug Information Management"
+    },
+    "prescriptionManagement": "Diagnosis Management",
+    "reservation": {
+      "registrationTime": "Reservation Time"
+    },
+    "reservationInformation": {
+      "completionStatus": "Complete Status",
+      "confirmCompletion": "Are you sure complete?",
+      "title": "Reservation"
+    }
+  },
+  "index": {
+    "home": "Home",
+    "authoritative_doctors": "authoritative doctors",
+    "hospital_photos": "hospital photos"
+  },
+  "message": {
+    "toAlipay": "Redirecting to Alipay Payment"
+  },
+  "status": {
+    "visited": "visited",
+    "notVisited": "not visited",
+    "processing": "Process Status",
+    "unvisited": "unvisited",
+    "changeStatus": "finished"
+  },
+  "compoents": {
+    "prescription": {
+      "drugCount": "drug count"
+    }
+  },
+  "buttons": {
+    "search": "search",
+    "reset": "reset",
+    "instock": "instock"
+  },
+  "registration": {
+    "cancelRegistration": "cancel registration"
+  },
+  "drugManagement": {
+    "instock": "instock drug",
+    "instockPlaceholder": "please input num"
+  },
+  "reservation": {
+    "scheduledTime": "Scheduled Time"
+  }
+}

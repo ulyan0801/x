@@ -1,0 +1,74 @@
+@media only screen and (min-width: 700px) {
+  .allPage {
+    overflow: hidden;
+  }
+
+  .allPageFirst {
+    height: 0px;
+  }
+
+  .allPageOpen {
+    animation: open 0.2s forwards;
+  }
+
+  .allPageClose {
+    animation: close 0.2s forwards;
+  }
+
+  @keyframes open {
+    from {
+      height: 0px;
+    }
+
+    to {
+      height: 56px;
+    }
+  }
+
+  @keyframes close {
+    from {
+      height: 56px;
+    }
+
+    to {
+      height: 0px;
+    }
+  }
+}
+@media only screen and (max-width: 700px) {
+  .allPage {
+    overflow: hidden;
+  }
+
+  .allPageFirst {
+    height: 0px;
+  }
+
+  .allPageOpen {
+    animation: open 0.3s forwards;
+  }
+
+  .allPageClose {
+    animation: close 0.3s forwards;
+  }
+
+  @keyframes open {
+    from {
+      height: 0px;
+    }
+
+    to {
+      height: 248px;
+    }
+  }
+
+  @keyframes close {
+    from {
+      height: 248px;
+    }
+
+    to {
+      height: 0px;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@media only screen and (min-width: 700px) {
+  .allPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .contentBox {
+      width: 30%;
+    }
+  }
+}
